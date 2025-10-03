@@ -1,10 +1,10 @@
-# 📄 CRAG LangChain Document Question Answering
+# CRAG LangChain Document Question Answering
 
 This repository contains a LangChain-based PDF document question-answering system using Hugging Face models and FAISS vector storage. The system processes documents (such as the CRAG dataset documentation or research papers), enables similarity-based document retrieval, performs document grading for relevance, and generates final answers using an LLM (e.g., LLaMA 3 from Hugging Face).
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 To build an intelligent PDF question-answering pipeline using:
 - **LangChain**
@@ -22,7 +22,7 @@ The pipeline allows you to:
 
 ---
 
-## 🧠 Architecture Overview
+##  Architecture Overview
 
 The system performs the following steps:
 
