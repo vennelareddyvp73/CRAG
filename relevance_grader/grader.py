@@ -61,7 +61,7 @@ class RelevanceGrader:
         return [self.strategy.grade(doc, question) for doc in documents]
 
 
-#  Helper function (used in pipeline)
+#  Helper function 
 def filter_relevant_docs(docs, question: str) -> List:
     """
     Takes LangChain Documents → returns only relevant ones
