@@ -6,7 +6,6 @@ from langchain_huggingface import HuggingFaceEndpoint, ChatHuggingFace
 
 load_dotenv()
 
-# Singleton pattern
 
 
 class LLMProvider(ABC):
